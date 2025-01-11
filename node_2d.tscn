@@ -1,0 +1,878 @@
+[gd_scene load_steps=82 format=3 uid="uid://c8xgk0gag8x70"]
+
+[ext_resource type="Script" path="res://tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby.gd" id="1_1lk04"]
+[ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_1nu1w"]
+[ext_resource type="Texture2D" uid="uid://r1gdparetn4k" path="res://icon smurf cat sma .png" id="1_4flqo"]
+[ext_resource type="Texture2D" uid="uid://ce1tm7gg2ivai" path="res://jugar version modo historia.png" id="1_b74um"]
+[ext_resource type="Texture2D" uid="uid://dokiinu6yju1j" path="res://fondo sma 3 asd.png" id="1_fa3c8"]
+[ext_resource type="Texture2D" uid="uid://3ts64eocpt5a" path="res://fondo.png" id="1_lle2b"]
+[ext_resource type="Texture2D" uid="uid://dtdgqsroohyvi" path="res://modo historia.png" id="1_wofi0"]
+[ext_resource type="Texture2D" uid="uid://c5uff06om2s6c" path="res://fondo de 4v4 sma.png" id="1_wxw2e"]
+[ext_resource type="Script" path="res://fondo sellecion de persojane.gd" id="2_05q87"]
+[ext_resource type="Script" path="res://player sma.gd" id="3_hdqo0"]
+[ext_resource type="Texture2D" uid="uid://bbaec6fvuui8h" path="res://player sma .png" id="3_y0fx4"]
+[ext_resource type="Script" path="res://Camera2D.gd" id="4_1lg23"]
+[ext_resource type="Script" path="res://JugarVersionModoHistoria.gd" id="4_l08ka"]
+[ext_resource type="Script" path="res://Fondo.gd" id="4_phim1"]
+[ext_resource type="Script" path="res://fondo sma  otros modos.gd" id="4_ypqx6"]
+[ext_resource type="Texture2D" uid="uid://du5vkg827giq8" path="res://suelito png.png" id="5_ai1n2"]
+[ext_resource type="Script" path="res://boton 3.gd" id="5_f1s3k"]
+[ext_resource type="Script" path="res://StaticBody2D.gd" id="5_tda5r"]
+[ext_resource type="Script" path="res://peru.gd" id="6_gy8fd"]
+[ext_resource type="Script" path="res://pres shift.gd" id="6_m0cqp"]
+[ext_resource type="Script" path="res://BotonDeRegresar.gd" id="6_tynse"]
+[ext_resource type="Script" path="res://icon smurf.gd" id="7_8b1mp"]
+[ext_resource type="Texture2D" uid="uid://d0is00qhfiggr" path="res://menu sma.png" id="7_82fq5"]
+[ext_resource type="Script" path="res://IMAGEN.gd" id="7_m7s2k"]
+[ext_resource type="Script" path="res://StaticBody2D2.gd" id="7_q1hih"]
+[ext_resource type="Script" path="res://fondo del modo historia.gd" id="8_agxl4"]
+[ext_resource type="Script" path="res://Button.gd" id="8_kvmca"]
+[ext_resource type="Texture2D" uid="uid://dj0yty7a6ct1r" path="res://boton 4v4 sma.png" id="8_mxjmp"]
+[ext_resource type="Texture2D" uid="uid://dol427j14tarl" path="res://peru sma .png" id="9_n5qax"]
+[ext_resource type="Script" path="res://peru sma button.gd" id="9_o5ka1"]
+[ext_resource type="Script" path="res://boton de 4vs4.gd" id="10_0w2fi"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="11_qvkne"]
+[ext_resource type="Texture2D" uid="uid://b5ly3ugwnwjxi" path="res://puertecita asdfghjklñ sma .png" id="12_q83lg"]
+[ext_resource type="Script" path="res://button ñ.gd" id="14_ixldu"]
+[ext_resource type="Script" path="res://CollisionShape2D.gd" id="14_qg22r"]
+[ext_resource type="Script" path="res://online.gd" id="14_xrbvd"]
+[ext_resource type="Texture2D" uid="uid://dy4efl0fjraue" path="res://menu sma 2 .png" id="18_2cy5y"]
+[ext_resource type="Script" path="res://as.gd" id="24_m5geg"]
+[ext_resource type="Texture2D" uid="uid://cnt2rjabam20o" path="res://boton de regresar.png" id="24_qw3rb"]
+[ext_resource type="Script" path="res://colision importBTE.gd" id="33_obbwl"]
+[ext_resource type="Texture2D" uid="uid://7hrstgy43ulg" path="res://smurf cat remasterisado sma asd .png" id="35_c5huk"]
+[ext_resource type="Texture2D" uid="uid://cnnuxuayfrvw" path="res://icon 1 sma sma.png" id="35_rwtyx"]
+[ext_resource type="Texture2D" uid="uid://bw1imdofh437o" path="res://icon 2 sma asd hammood.png" id="36_k05oe"]
+[ext_resource type="Script" path="res://icon de la grasa asd.gd" id="37_4xi76"]
+[ext_resource type="Script" path="res://fondo seleccion de mapas.gd" id="38_4tf45"]
+[ext_resource type="Texture2D" uid="uid://b7uns5iu80agq" path="res://fondo asd.png" id="38_8udbp"]
+[ext_resource type="Script" path="res://boton 3 3 ,recorchplis.gd" id="39_85v7m"]
+[ext_resource type="Script" path="res://boton 3 ekisde jajaj.gd" id="42_wvn66"]
+[ext_resource type="Texture2D" uid="uid://tng0t33g1ke3" path="res://numeritos sidosos png sma .png" id="46_12kc1"]
+[ext_resource type="Script" path="res://sa.gd" id="46_y4cx2"]
+[ext_resource type="Script" path="res://asdf.gd" id="47_p466r"]
+[ext_resource type="Script" path="res://Colli.gd" id="50_wf5cc"]
+
+[sub_resource type="Animation" id="Animation_q1wgy"]
+resource_name = "animcacixoas"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2.60066, 1.45), Vector2(2.60066, 1.45)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.00604907]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(134, -30)]
+}
+
+[sub_resource type="Animation" id="Animation_uhg3s"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.346597, 0.310332), Vector2(0.346597, 0.310332)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(591, -238), Vector2(591, -238)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_h24nx"]
+_data = {
+"animcacixoas": SubResource("Animation_q1wgy"),
+"new_animation": SubResource("Animation_uhg3s")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3dt5q"]
+size = Vector2(294.794, 161.189)
+
+[sub_resource type="Animation" id="Animation_wg6cq"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/CollisionShape2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(36, 755)]
+}
+
+[sub_resource type="Animation" id="Animation_6p2vw"]
+resource_name = "new_animation_2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/CollisionShape2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1036, -2217), Vector2(1036, -2217)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_aadpt"]
+_data = {
+"new_animation": SubResource("Animation_wg6cq"),
+"new_animation_2": SubResource("Animation_6p2vw")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30oqj"]
+size = Vector2(3524.5, 190.625)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_w5k37"]
+radius = 31.0
+height = 112.0
+
+[sub_resource type="Animation" id="Animation_lhujg"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CollisionShape2D:shape")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 1,
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 1,
+"values": []
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_475iv"]
+_data = {
+"new_animation": SubResource("Animation_lhujg")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_enste"]
+size = Vector2(99.7951, 4.55285)
+
+[sub_resource type="Animation" id="Animation_xs35f"]
+resource_name = "dsdndsbdhshf"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.290344, -6.69917)]
+}
+
+[sub_resource type="Animation" id="Animation_tkx36"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-0.423847, -28.9837), Vector2(0.364227, -27)]
+}
+
+[sub_resource type="Animation" id="Animation_frwhd"]
+resource_name = "new_animation_2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(11.6552, 126.959)]
+}
+
+[sub_resource type="Animation" id="Animation_e8j6d"]
+resource_name = "new_animation_3"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(267.489, -1.95121)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_67sf2"]
+_data = {
+"dsdndsbdhshf": SubResource("Animation_xs35f"),
+"new_animation": SubResource("Animation_tkx36"),
+"new_animation_2": SubResource("Animation_frwhd"),
+"new_animation_3": SubResource("Animation_e8j6d")
+}
+
+[sub_resource type="Animation" id="Animation_nggyi"]
+resource_name = "321 animaciom"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:hframes")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.5, 1, 1.1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 1, 2, 2, 2, 3]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.5, 0.5001, 1, 1.1, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-831, -39), Vector2(-719.8, -150.2), Vector2(-692, -178), Vector2(-719.8, -150.2), Vector2(-692, -178), Vector2(-511, -178.8), Vector2(213, -182)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_18o2a"]
+_data = {
+"321 animaciom": SubResource("Animation_nggyi")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b2m51"]
+size = Vector2(2964.5, 134.766)
+
+[sub_resource type="Animation" id="Animation_iaju6"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(234, -45.3828)]
+}
+
+[sub_resource type="Animation" id="Animation_cmdf5"]
+resource_name = "new_animation_2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(327, -1763)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_eqbxp"]
+_data = {
+"new_animation": SubResource("Animation_iaju6"),
+"new_animation_2": SubResource("Animation_cmdf5")
+}
+
+[sub_resource type="Animation" id="Animation_a8fkt"]
+resource_name = "animation logo 1"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-4.13167, 3.77431), Vector2(-1.45172, 1.48575)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../IMAGEN/IconSma:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [null, Vector2(4.37463, 7.75213), Vector2(1.85898, 1.49443)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_04q4u"]
+_data = {
+"animation logo 1": SubResource("Animation_a8fkt")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0b1yr"]
+size = Vector2(691, 28.5)
+
+[sub_resource type="Animation" id="Animation_5ocnf"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.5, 6.5)]
+}
+
+[sub_resource type="Animation" id="Animation_fwl4o"]
+resource_name = "new_animation_2"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-4, -1134)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7l5qk"]
+_data = {
+"new_animation": SubResource("Animation_5ocnf"),
+"new_animation_2": SubResource("Animation_fwl4o")
+}
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(366, 298)
+
+[node name="fondo sellecion de persojane" type="Sprite2D" parent="."]
+position = Vector2(79, -34)
+scale = Vector2(3.61267, 2.60842)
+texture = ExtResource("1_wxw2e")
+script = ExtResource("2_05q87")
+
+[node name="fondo seleccion de mapas" type="Sprite2D" parent="."]
+position = Vector2(164.15, 21.1176)
+rotation = 0.00774236
+scale = Vector2(2.29325, 1.11964)
+texture = ExtResource("38_8udbp")
+script = ExtResource("38_4tf45")
+
+[node name="peru" type="Sprite2D" parent="."]
+position = Vector2(591, -238)
+rotation = -0.00604907
+scale = Vector2(0.346597, 0.310332)
+skew = -0.00747645
+texture = ExtResource("9_n5qax")
+script = ExtResource("6_gy8fd")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="peru"]
+libraries = {
+"": SubResource("AnimationLibrary_h24nx")
+}
+
+[node name="icon smurf" type="Sprite2D" parent="."]
+position = Vector2(-271, -26)
+scale = Vector2(1.03, 0.89)
+texture = ExtResource("1_4flqo")
+script = ExtResource("7_8b1mp")
+
+[node name="smurf" type="Button" parent="icon smurf"]
+offset_left = -98.0582
+offset_top = -95.5056
+offset_right = 111.942
+offset_bottom = 106.494
+flat = true
+metadata/_edit_use_anchors_ = true
+
+[node name="player sma" type="Button" parent="."]
+offset_left = -327.0
+offset_top = 85.0
+offset_right = 8.0
+offset_bottom = 537.0
+flat = true
+script = ExtResource("3_hdqo0")
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="player sma"]
+position = Vector2(167.75, 223.5)
+scale = Vector2(1.6325, 2.235)
+texture = ExtResource("3_y0fx4")
+
+[node name="pres shift" type="Button" parent="player sma"]
+visible = false
+layout_mode = 0
+offset_left = 104.0
+offset_top = -85.0
+offset_right = 566.0
+offset_bottom = -48.0
+text = "Press shift"
+script = ExtResource("6_m0cqp")
+
+[node name="peru sma button" type="Button" parent="."]
+offset_left = 411.0
+offset_top = -378.0
+offset_right = 756.0
+offset_bottom = -101.0
+rotation = -0.0529328
+flat = true
+script = ExtResource("9_o5ka1")
+metadata/_edit_use_anchors_ = true
+
+[node name="fondo sma  otros modos" type="Sprite2D" parent="."]
+position = Vector2(126, -51)
+scale = Vector2(4.424, 2.81)
+texture = ExtResource("1_fa3c8")
+script = ExtResource("4_ypqx6")
+
+[node name="fondo del modo historia" type="Sprite2D" parent="."]
+position = Vector2(153, -48.4999)
+scale = Vector2(4.316, 2.81)
+texture = ExtResource("1_wofi0")
+script = ExtResource("8_agxl4")
+
+[node name="JugarVersionModoHistoria" type="Sprite2D" parent="."]
+position = Vector2(568.5, -165.75)
+scale = Vector2(13.86, 7.53)
+texture = ExtResource("1_b74um")
+script = ExtResource("4_l08ka")
+
+[node name="Fondo" type="Sprite2D" parent="."]
+position = Vector2(203, 14)
+scale = Vector2(5.192, 2.75)
+texture = ExtResource("1_lle2b")
+script = ExtResource("4_phim1")
+
+[node name="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby" type="StaticBody2D" parent="."]
+script = ExtResource("1_1lk04")
+
+[node name="Sprite2D" type="Sprite2D" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+position = Vector2(451.5, -96)
+scale = Vector2(2.982, 2.592)
+texture = ExtResource("12_q83lg")
+script = ExtResource("11_qvkne")
+
+[node name="Button" type="Button" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+anchors_preset = -1
+anchor_left = -0.04
+anchor_top = -0.04
+anchor_right = -0.04
+anchor_bottom = -0.04
+offset_left = 180.42
+offset_top = -376.59
+offset_right = 232.42
+offset_bottom = -323.59
+flat = true
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+position = Vector2(36, 748)
+scale = Vector2(7.3, 7.15)
+shape = SubResource("RectangleShape2D_3dt5q")
+script = ExtResource("24_m5geg")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/CollisionShape2D"]
+root_node = NodePath("../../..")
+libraries = {
+"": SubResource("AnimationLibrary_aadpt")
+}
+
+[node name="boton de 4vs4" type="Button" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+offset_left = 606.0
+offset_top = -10.0
+offset_right = 1060.0
+offset_bottom = 199.0
+flat = true
+script = ExtResource("10_0w2fi")
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4"]
+position = Vector2(238, 103)
+scale = Vector2(2.61, 2.23)
+texture = ExtResource("8_mxjmp")
+
+[node name="online" type="Button" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+offset_left = 129.0
+offset_right = 400.0
+offset_bottom = 130.0
+text = "online(no disponible)"
+script = ExtResource("14_xrbvd")
+metadata/_edit_use_anchors_ = true
+
+[node name="BotonDeRegresar" type="Sprite2D" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby"]
+position = Vector2(-750.656, 379.182)
+rotation = 0.00110938
+scale = Vector2(9.35309, 6.80524)
+skew = 0.00385725
+texture = ExtResource("24_qw3rb")
+script = ExtResource("6_tynse")
+
+[node name="boton 3" type="Button" parent="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar"]
+anchors_preset = -1
+anchor_left = -0.364303
+anchor_top = 0.282084
+anchor_right = 0.0456971
+anchor_bottom = 1.20208
+offset_left = -3.33484
+offset_top = 9.11961
+offset_right = 4.66513
+offset_bottom = 17.1196
+rotation = -0.00180153
+scale = Vector2(1.54855, -1.07556)
+flat = true
+script = ExtResource("5_f1s3k")
+metadata/_edit_use_anchors_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-317, 378)
+script = ExtResource("5_tda5r")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(122, 79)
+scale = Vector2(3.4366, 1.46094)
+texture = ExtResource("5_ai1n2")
+
+[node name="COLISION IMPORTANTE" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(522, -152)
+shape = SubResource("RectangleShape2D_30oqj")
+script = ExtResource("33_obbwl")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("character")]
+position = Vector2(36, 74)
+script = ExtResource("1_1nu1w")
+character = NodePath("../StaticBody2D2/botonsida")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(111, 74)
+shape = SubResource("CapsuleShape2D_w5k37")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(55, -35)
+scale = Vector2(2.64, 2.36)
+texture = ExtResource("35_c5huk")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D"]
+libraries = {
+"": SubResource("AnimationLibrary_475iv")
+}
+
+[node name="Camera2D" type="Camera2D" parent="." node_paths=PackedStringArray("object_to_follow")]
+script = ExtResource("4_1lg23")
+object_to_follow = NodePath("../CharacterBody2D")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(26, 63)
+scale = Vector2(12.0547, 7.6875)
+script = ExtResource("7_q1hih")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2"]
+position = Vector2(13.1484, -24.2602)
+scale = Vector2(0.370976, 0.330667)
+texture = ExtResource("18_2cy5y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(267.489, -1.95121)
+scale = Vector2(1, 0.999999)
+shape = SubResource("RectangleShape2D_enste")
+one_way_collision_margin = 2.0
+script = ExtResource("14_qg22r")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="StaticBody2D2/CollisionShape2D"]
+libraries = {
+"": SubResource("AnimationLibrary_67sf2")
+}
+
+[node name="botonsida" type="Button" parent="StaticBody2D2"]
+offset_left = -27.0
+offset_top = -43.0
+offset_right = -6.0
+offset_bottom = -12.0
+text = "
+"
+flat = true
+script = ExtResource("14_ixldu")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button2" type="Button" parent="StaticBody2D2"]
+offset_left = -35.0
+offset_top = -14.0
+offset_right = -13.0
+offset_bottom = 15.0
+rotation = 0.00957322
+flat = true
+metadata/_edit_use_anchors_ = true
+
+[node name="boton 3 ekisde jajaj" type="Button" parent="."]
+offset_left = -950.0
+offset_top = 174.0
+offset_right = -544.0
+offset_bottom = 544.0
+rotation = -0.0251404
+flat = true
+script = ExtResource("42_wvn66")
+metadata/_edit_use_anchors_ = true
+
+[node name="boton 3 2" type="Sprite2D" parent="boton 3 ekisde jajaj"]
+position = Vector2(201.586, 178.124)
+rotation = -3.09415
+scale = Vector2(9.38115, -7.88053)
+skew = -0.0232346
+texture = ExtResource("24_qw3rb")
+
+[node name="boton 3 3 ,recorchplis" type="Button" parent="."]
+offset_left = -980.0
+offset_top = 188.0
+offset_right = -539.0
+offset_bottom = 538.0
+flat = true
+script = ExtResource("39_85v7m")
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="boton 3 3 ,recorchplis"]
+position = Vector2(203.948, 162.816)
+rotation = -3.0863
+scale = Vector2(9.33189, -8.19945)
+skew = -0.0370299
+texture = ExtResource("24_qw3rb")
+
+[node name="numeritos sidososds" type="Sprite2D" parent="."]
+position = Vector2(213, -182)
+rotation = 0.00220276
+scale = Vector2(1.36418, 1.3663)
+texture = ExtResource("46_12kc1")
+hframes = 3
+script = ExtResource("47_p466r")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="numeritos sidososds"]
+libraries = {
+"": SubResource("AnimationLibrary_18o2a")
+}
+
+[node name="IMAGEN" type="StaticBody2D" parent="."]
+script = ExtResource("7_m7s2k")
+
+[node name="Sprite2D" type="Sprite2D" parent="IMAGEN"]
+position = Vector2(82, -78)
+scale = Vector2(4.468, 2.5555)
+texture = ExtResource("7_82fq5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="IMAGEN"]
+position = Vector2(327, -1763)
+shape = SubResource("RectangleShape2D_b2m51")
+script = ExtResource("46_y4cx2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="IMAGEN/CollisionShape2D"]
+libraries = {
+"": SubResource("AnimationLibrary_eqbxp")
+}
+
+[node name="Button" type="Button" parent="IMAGEN" node_paths=PackedStringArray("ver")]
+offset_left = -273.0
+offset_top = 75.0
+offset_right = 286.0
+offset_bottom = 197.0
+text = "haz click para empezar
+"
+script = ExtResource("8_kvmca")
+ver = NodePath("..")
+metadata/_edit_use_anchors_ = true
+
+[node name="IconSma" type="Sprite2D" parent="IMAGEN"]
+position = Vector2(156, -107)
+scale = Vector2(1.85898, 1.49443)
+texture = ExtResource("35_rwtyx")
+
+[node name="icon de la grasa asd" type="Sprite2D" parent="IMAGEN"]
+position = Vector2(49, -249)
+rotation = -4.88703
+scale = Vector2(-4.13167, 3.77431)
+texture = ExtResource("36_k05oe")
+script = ExtResource("37_4xi76")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="IMAGEN/icon de la grasa asd"]
+libraries = {
+"": SubResource("AnimationLibrary_04q4u")
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(1.5, -78.25)
+shape = SubResource("RectangleShape2D_0b1yr")
+script = ExtResource("50_wf5cc")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="StaticBody2D3/CollisionShape2D"]
+libraries = {
+"": SubResource("AnimationLibrary_7l5qk")
+}
+
+[connection signal="pressed" from="icon smurf/smurf" to="player sma" method="_on_smurf_pressed"]
+[connection signal="pressed" from="icon smurf/smurf" to="player sma/pres shift" method="_on_smurf_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="fondo sellecion de persojane" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="fondo seleccion de mapas" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="peru" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="icon smurf" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="player sma" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="player sma/pres shift" method="_on_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="peru sma button" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="player sma/pres shift" to="boton 3 3 ,recorchplis" method="_on_pres_shift_pressed"]
+[connection signal="pressed" from="peru sma button" to="fondo sellecion de persojane" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="fondo seleccion de mapas" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="peru" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="peru sma button" method="_on_pressed"]
+[connection signal="pressed" from="peru sma button" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/CollisionShape2D" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="StaticBody2D/COLISION IMPORTANTE" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="CharacterBody2D" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="StaticBody2D2/CollisionShape2D" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="boton 3 ekisde jajaj" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="boton 3 3 ,recorchplis" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="numeritos sidososds" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="IMAGEN/CollisionShape2D" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="peru sma button" to="StaticBody2D3/CollisionShape2D" method="_on_peru_sma_button_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="fondo sellecion de persojane" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="peru" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="icon smurf" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="player sma" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="fondo sma  otros modos" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="JugarVersionModoHistoria" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/Sprite2D" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" method="_on_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/online" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="StaticBody2D2" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" to="boton 3 ekisde jajaj" method="_on_boton_de_4_vs_4_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="fondo sellecion de persojane" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="fondo seleccion de mapas" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="icon smurf" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="player sma" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="fondo sma  otros modos" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="fondo del modo historia" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="JugarVersionModoHistoria" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="StaticBody2D" method="_on_boton_3_pressed"]
+[connection signal="pressed" from="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" to="StaticBody2D2" method="_on_boton_3_pressed"]
+[connection signal="hidden" from="CharacterBody2D" to="fondo del modo historia" method="_on_character_body_2d_hidden"]
+[connection signal="hidden" from="CharacterBody2D" to="StaticBody2D2/botonsida" method="_on_character_body_2d_hidden"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="fondo sma  otros modos" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="fondo del modo historia" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="JugarVersionModoHistoria" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="Fondo" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/Sprite2D" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/online" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="StaticBody2D" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="CharacterBody2D" method="_on_button_ñ_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="CharacterBody2D" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="StaticBody2D2" method="_on_button_ñ_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="StaticBody2D2" method="_on_button_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="StaticBody2D2" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="StaticBody2D2/CollisionShape2D" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/botonsida" to="IMAGEN/Button" method="_on_botonsida_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="fondo del modo historia" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="JugarVersionModoHistoria" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="Fondo" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="StaticBody2D" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="CharacterBody2D" method="_on_button_2_pressed"]
+[connection signal="pressed" from="StaticBody2D2/Button2" to="StaticBody2D2" method="_on_button_2_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="fondo sma  otros modos" method="_on_boton_3_ekisde_jajaj_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby" method="_on_boton_3_ekisde_jajaj_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/Sprite2D" method="_on_boton_3_ekisde_jajaj_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/boton de 4vs4" method="_on_boton_3_ekisde_jajaj_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="tardigradoawkdjdisighdrfhsjdhgigdherridutunrtgvihnuitby/BotonDeRegresar/boton 3" method="_on_boton_3_ekisde_jajaj_pressed"]
+[connection signal="pressed" from="boton 3 ekisde jajaj" to="boton 3 ekisde jajaj" method="_on_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="fondo sellecion de persojane" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="fondo seleccion de mapas" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="peru" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="icon smurf" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="player sma" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="player sma/pres shift" method="_on_boton_3_3_recorchplis_pressed"]
+[connection signal="pressed" from="boton 3 3 ,recorchplis" to="boton 3 3 ,recorchplis" method="_on_pressed"]
+[connection signal="pressed" from="IMAGEN/Button" to="StaticBody2D2" method="_on_button_pressed"]
+[connection signal="pressed" from="IMAGEN/Button" to="IMAGEN" method="_on_button_pressed"]
+[connection signal="pressed" from="IMAGEN/Button" to="IMAGEN/Button" method="_on_pressed"]
+[connection signal="pressed" from="IMAGEN/Button" to="IMAGEN/icon de la grasa asd" method="_on_button_pressed"]
